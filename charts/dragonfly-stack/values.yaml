@@ -1123,6 +1123,9 @@ dragonfly:
               - hostNamespace: ghcr.io
                 serverAddr: https://ghcr.io
                 capabilities: ["pull", "resolve"]
+              - hostNamespace: "679004966033.dkr.ecr.us-east-1.amazonaws.com"
+                serverAddr: "https://679004966033.dkr.ecr.us-east-1.amazonaws.com"
+                capabilities: ['pull', 'resolve']
           # crio:
             # # -- configPath is the path of cri-o registries's configuration file.
             # configPath: /etc/containers/registries.conf
